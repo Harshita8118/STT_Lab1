@@ -51,7 +51,7 @@ def main():
     print(greet(name))  # Call greet function
 
     num1, num2 = 10, 5
-    prin(f"{num1} + {num2} = {add_numbers(num1, num2)}")
+    print(f"{num1} + {num2} = {add_numbers(num1, num2)}")
     print(f"{num1} - {num2} = {subtract_numbers(num1, num2)}")
     print(f"{num1} * {num2} = {multiply_numbers(num1, num2)}")
     print(f"{num1} / {num2} = {divide_numbers(num1, num2)}")
